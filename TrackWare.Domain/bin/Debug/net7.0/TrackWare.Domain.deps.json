@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "TrackWare.Domain/1.0.0": {
+        "runtime": {
+          "TrackWare.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "TrackWare.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
