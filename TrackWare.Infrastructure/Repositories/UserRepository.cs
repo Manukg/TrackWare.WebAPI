@@ -6,6 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using TrackWare.Application.Interfaces;
+using TrackWare.Application.UseCases;
 using TrackWare.Domain.Entities;
 
 namespace TrackWare.Infrastructure.Repositories
@@ -22,11 +23,15 @@ namespace TrackWare.Infrastructure.Repositories
 
         public async Task<User?> GetByUserNameAsync(string typeCode, string userName)
         {
-            const string sql = @"SELECT USR_ID as ID,USR_USERFULLNAME as FullName,USR_EMAILADDRESS as EmailAddress,USR_MOBILENUMBER as MobileNumber,USR_ROLE_ID AS RoleID ,USR_LOGINID LoginId,USR_LOGINPASSWORD LoginPassword,USR_CREATEBY CreateBy,USR_CREATETS CreateTs 
+            const string sql = @"SELECT USR_ID as ID,USR_USERFULLNAME as FullName,USR_EMAILADDRESS as EmailAddress,USR_MOBILENUMBER as MobileNumber,USR_ROLE_ID AS RoleID ,USR_LOGINID LoginId,USR_LOGINPASSWORD LoginPassword,USR_CURRENT_COMPANYID CurrentCompanyID,USR_CURRENT_YEARCODE CurrentYearCode,USR_CREATE_BY CreateBy,USR_CREATE_TS CreateTs 
                              FROM USER_PROFILE 
-                             WHERE USR_TYPECODE =@TypeCode AND USR_LOGINID = @UserName";
+                             WHERE USR_TYPE_CODE =@TypeCode AND USR_LOGINID = @UserName";
 
-            return await _dbConnection.QueryFirstOrDefaultAsync<User>(sql, new { TypeCode = typeCode, UserName = userName });
+            var usr= await _dbConnection.QueryFirstOrDefaultAsync<User>(sql, new { TypeCode = typeCode, UserName = userName });
+            return usr;
+            // Current Company 
+
         }
+      
     }
 }

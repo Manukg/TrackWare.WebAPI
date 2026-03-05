@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TrackWare.Application")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+10662c669456d7b8c77dab57aa30f9e89a862b37")]
 [assembly: System.Reflection.AssemblyProductAttribute("TrackWare.Application")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TrackWare.Application")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

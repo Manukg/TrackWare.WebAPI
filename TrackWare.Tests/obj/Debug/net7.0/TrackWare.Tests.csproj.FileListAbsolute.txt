@@ -164,9 +164,13 @@ D:\Other Projects\TrackWare\TrackWare.WebAPI\TrackWare.Tests\obj\Debug\net7.0\Tr
 D:\Other Projects\TrackWare\TrackWare.WebAPI\TrackWare.Tests\obj\Debug\net7.0\TrackWare.Tests.AssemblyInfoInputs.cache
 D:\Other Projects\TrackWare\TrackWare.WebAPI\TrackWare.Tests\obj\Debug\net7.0\TrackWare.Tests.AssemblyInfo.cs
 D:\Other Projects\TrackWare\TrackWare.WebAPI\TrackWare.Tests\obj\Debug\net7.0\TrackWare.Tests.csproj.CoreCompileInputs.cache
-D:\Other Projects\TrackWare\TrackWare.WebAPI\TrackWare.Tests\obj\Debug\net7.0\TrackWare.Tests.csproj.CopyComplete
 D:\Other Projects\TrackWare\TrackWare.WebAPI\TrackWare.Tests\obj\Debug\net7.0\TrackWare.Tests.dll
 D:\Other Projects\TrackWare\TrackWare.WebAPI\TrackWare.Tests\obj\Debug\net7.0\refint\TrackWare.Tests.dll
 D:\Other Projects\TrackWare\TrackWare.WebAPI\TrackWare.Tests\obj\Debug\net7.0\TrackWare.Tests.pdb
 D:\Other Projects\TrackWare\TrackWare.WebAPI\TrackWare.Tests\obj\Debug\net7.0\TrackWare.Tests.genruntimeconfig.cache
 D:\Other Projects\TrackWare\TrackWare.WebAPI\TrackWare.Tests\obj\Debug\net7.0\ref\TrackWare.Tests.dll
+D:\Other Projects\TrackWare\TrackWare.WebAPI\TrackWare.Tests\bin\Debug\net7.0\FluentAssertions.dll
+D:\Other Projects\TrackWare\TrackWare.WebAPI\TrackWare.Tests\bin\Debug\net7.0\TrackWare.EndPoint.staticwebassets.endpoints.json
+D:\Other Projects\TrackWare\TrackWare.WebAPI\TrackWare.Tests\obj\Debug\net7.0\TrackWare.Tests.sourcelink.json
+D:\Other Projects\TrackWare\TrackWare.WebAPI\TrackWare.Tests\obj\Debug\net7.0\TrackWar.9D4A96AF.Up2Date
+D:\Other Projects\TrackWare\TrackWare.WebAPI\TrackWare.Tests\bin\Debug\net7.0\TrackWare.EndPoint.staticwebassets.runtime.json

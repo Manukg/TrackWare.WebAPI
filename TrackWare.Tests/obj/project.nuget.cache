@@ -1,12 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "WEjfksdwf01sjcpO8LdDFF0hBrLymNlEwxksh+w7SJ6mo+qCZ7TrWJqK8/1NBvnxnSBy8h9I/0e29a1C7tYgFw==",
+  "dgSpecHash": "KoQKlcsB7MA=",
   "success": true,
   "projectFilePath": "D:\\Other Projects\\TrackWare\\TrackWare.WebAPI\\TrackWare.Tests\\TrackWare.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\MANAV\\.nuget\\packages\\castle.core\\5.1.1\\castle.core.5.1.1.nupkg.sha512",
     "C:\\Users\\MANAV\\.nuget\\packages\\coverlet.collector\\3.2.0\\coverlet.collector.3.2.0.nupkg.sha512",
     "C:\\Users\\MANAV\\.nuget\\packages\\dapper\\2.1.66\\dapper.2.1.66.nupkg.sha512",
+    "C:\\Users\\MANAV\\.nuget\\packages\\fluentassertions\\8.8.0\\fluentassertions.8.8.0.nupkg.sha512",
     "C:\\Users\\MANAV\\.nuget\\packages\\jwt\\11.0.0\\jwt.11.0.0.nupkg.sha512",
     "C:\\Users\\MANAV\\.nuget\\packages\\microsoft.aspnetcore.antiforgery\\2.3.0\\microsoft.aspnetcore.antiforgery.2.3.0.nupkg.sha512",
     "C:\\Users\\MANAV\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.3.0\\microsoft.aspnetcore.authentication.abstractions.2.3.0.nupkg.sha512",

@@ -140,7 +140,10 @@
       "System.Runtime.CompilerServices.Unsafe/6.0.0": {},
       "TrackWare.Domain/1.0.0": {
         "runtime": {
-          "TrackWare.Domain.dll": {}
+          "TrackWare.Domain.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }

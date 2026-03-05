@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="..\build\TrackWare.EndPoint.props" />
-</Project>

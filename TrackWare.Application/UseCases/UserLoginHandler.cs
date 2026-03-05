@@ -45,10 +45,16 @@ namespace TrackWare.Application.UseCases
 
             return new LoginResponseDto
             {
-                UserId = user.Id,
-                UserName = user.LoginId,
+                UserId = user.LoginId,
+                UserName = user.FullName,
                 IsAuthenticated = true,
-                Token = GenerateToken(user) // Optional JWT token
+                Token = GenerateToken(user), // Optional JWT token
+                UserPhoto=user.Photo,
+                EmailID=user.EmailAddress,
+                Mobile=user.MobileNumber,
+                Role=user.RoleID,
+                CMPCode =user.CurrentCompanyID,
+                YearCode=user.CurrentYearCode,
             };
         }
 
@@ -82,8 +88,10 @@ namespace TrackWare.Application.UseCases
                 var claims = new[]
                 {
             new Claim(JwtRegisteredClaimNames.Sub, user.LoginId ?? string.Empty),
-            new Claim("userId", user.LoginId ?? string.Empty),
-            new Claim(ClaimTypes.Role, "User"),
+            new Claim("loginID", user.LoginId ?? string.Empty),
+            new Claim(ClaimTypes.Role, user.RoleID),
+             new Claim("companyID", user.CurrentCompanyID ?? string.Empty),
+                    new Claim("yearCode", user.CurrentYearCode ?? string.Empty),
             new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString())
         };
 
@@ -92,7 +100,7 @@ namespace TrackWare.Application.UseCases
                     issuer: issuer,
                     audience: null,
                     claims: claims,
-                    expires: DateTime.UtcNow.AddMinutes(10),
+                    expires: DateTime.UtcNow.AddHours(2),
                     signingCredentials: credentials);
 
                 // Return serialized token

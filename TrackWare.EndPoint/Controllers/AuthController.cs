@@ -2,9 +2,11 @@
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System.Data;
+using System.Security.Claims;
 using TrackWare.Application.DTOs;
 using TrackWare.Application.Interfaces;
 using TrackWare.Application.UseCases;
+using TrackWare.Domain.Entities;
 
 namespace TrackWare.EndPoint.Controllers
 {
@@ -13,11 +15,11 @@ namespace TrackWare.EndPoint.Controllers
     public class AuthController : ControllerBase
     {
         private readonly IUserLoginHandler _userLoginHandler;
-    //    private readonly IDbConnection _dbConnection;
+        //    private readonly IDbConnection _dbConnection;
         public AuthController(IUserLoginHandler userLoginHandler)
         {
             _userLoginHandler = userLoginHandler;
-          //  _dbConnection = dbConnection;
+            //  _dbConnection = dbConnection;
         }
 
         /// <summary>
@@ -40,13 +42,30 @@ namespace TrackWare.EndPoint.Controllers
             if (!result.IsAuthenticated)
                 return Unauthorized(new { message = "Invalid User Name or Password" });
 
+          
+ 
+
+
             return Ok(new
             {
                 token = result.Token,
                 expiresIn = 3200,
-                user = result.UserName
-            });
+                FulName = result.UserName,
+                LoginID = result.UserId,
+                Email = result.EmailID,
+                Mobile = result.Mobile,
+                Role = result.Role,
+                LicCompany = result.LicCompany,
+                UserPhoto = result.UserPhoto,
+                CompanyCode=result.CMPCode,
+                YearCode=result.YearCode,
+            
+        });
+
+
         }
+
+
 
     }
 }

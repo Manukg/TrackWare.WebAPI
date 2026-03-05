@@ -12,6 +12,10 @@ namespace TrackWare.Domain.Entities
         public string LoginId { get; set; }     // Login username
         public string LoginPassword { get; set; } // Hashed password
 
+        public string CurrentCompanyID { get; set; }     // Current Company USR_CURRENT_COMPANYID
+
+        public string CurrentYearCode { get; set; }     // Current YearCode USR_CURRENT_YEARCODE
+
         public string EditPassword { get; set; }
         public string FullName { get; set; } // nvarchar(40) - Required
 

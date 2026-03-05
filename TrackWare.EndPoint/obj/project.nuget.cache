@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "AWHjol7qfXb9BOOSZ1WhwFbHNKd8jHY4VrjivOKXY6bvSigE4SqM+8EfzpCu+9ac2zkDE5hC8lZMBbV/NuX5pw==",
+  "dgSpecHash": "W3l7Yu/xBK8=",
   "success": true,
   "projectFilePath": "D:\\Other Projects\\TrackWare\\TrackWare.WebAPI\\TrackWare.EndPoint\\TrackWare.EndPoint.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\MANAV\\.nuget\\packages\\dapper\\2.1.66\\dapper.2.1.66.nupkg.sha512",
+    "C:\\Users\\MANAV\\.nuget\\packages\\fluentassertions\\8.8.0\\fluentassertions.8.8.0.nupkg.sha512",
     "C:\\Users\\MANAV\\.nuget\\packages\\jwt\\11.0.0\\jwt.11.0.0.nupkg.sha512",
     "C:\\Users\\MANAV\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\7.0.15\\microsoft.aspnetcore.authentication.jwtbearer.7.0.15.nupkg.sha512",
     "C:\\Users\\MANAV\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.11\\microsoft.aspnetcore.openapi.7.0.11.nupkg.sha512",

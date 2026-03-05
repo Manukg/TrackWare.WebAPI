@@ -20,3 +20,4 @@ D:\Other Projects\TrackWare\TrackWare.WebAPI\TrackWare.Domain\obj\Debug\net7.0\T
 D:\Other Projects\TrackWare\TrackWare.WebAPI\TrackWare.Domain\obj\Debug\net7.0\refint\TrackWare.Domain.dll
 D:\Other Projects\TrackWare\TrackWare.WebAPI\TrackWare.Domain\obj\Debug\net7.0\TrackWare.Domain.pdb
 D:\Other Projects\TrackWare\TrackWare.WebAPI\TrackWare.Domain\obj\Debug\net7.0\ref\TrackWare.Domain.dll
+D:\Other Projects\TrackWare\TrackWare.WebAPI\TrackWare.Domain\obj\Debug\net7.0\TrackWare.Domain.sourcelink.json

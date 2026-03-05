@@ -23,8 +23,9 @@ D:\Other Projects\TrackWare\TrackWare.WebAPI\TrackWare.Application\obj\Debug\net
 D:\Other Projects\TrackWare\TrackWare.WebAPI\TrackWare.Application\obj\Debug\net7.0\TrackWare.Application.AssemblyInfoInputs.cache
 D:\Other Projects\TrackWare\TrackWare.WebAPI\TrackWare.Application\obj\Debug\net7.0\TrackWare.Application.AssemblyInfo.cs
 D:\Other Projects\TrackWare\TrackWare.WebAPI\TrackWare.Application\obj\Debug\net7.0\TrackWare.Application.csproj.CoreCompileInputs.cache
-D:\Other Projects\TrackWare\TrackWare.WebAPI\TrackWare.Application\obj\Debug\net7.0\TrackWare.Application.csproj.CopyComplete
 D:\Other Projects\TrackWare\TrackWare.WebAPI\TrackWare.Application\obj\Debug\net7.0\TrackWare.Application.dll
 D:\Other Projects\TrackWare\TrackWare.WebAPI\TrackWare.Application\obj\Debug\net7.0\refint\TrackWare.Application.dll
 D:\Other Projects\TrackWare\TrackWare.WebAPI\TrackWare.Application\obj\Debug\net7.0\TrackWare.Application.pdb
 D:\Other Projects\TrackWare\TrackWare.WebAPI\TrackWare.Application\obj\Debug\net7.0\ref\TrackWare.Application.dll
+D:\Other Projects\TrackWare\TrackWare.WebAPI\TrackWare.Application\obj\Debug\net7.0\TrackWare.Application.sourcelink.json
+D:\Other Projects\TrackWare\TrackWare.WebAPI\TrackWare.Application\obj\Debug\net7.0\TrackWar.02FF2DAC.Up2Date
